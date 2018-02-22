@@ -1,4 +1,4 @@
-public class Main {
+﻿public class Main {
     public static void main(String[] args) {
 
         Dog dog1 = new Dog("シロ",3);
@@ -17,7 +17,6 @@ class Dog{
     }
     public Dog(String n){
         name = n;
-        System.out.println("犬の名前は"+name+"です｡" + "年齢はわかりませんでした｡");
         System.out.println("犬の名前は"+name+"です｡" + "年齢はわかりませんでした｡");
     }
 }
